@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <title>register</title>
+        <style>
+            input[type=text], input[type=password], input[type=email], textarea {
+  width: 100%;
+  padding: 12px 5px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+        }
+    body {
+        background-image: url("logologin.png");
+        background-size: auto;
+        background-position: center;
+        backdrop-filter: blur(1px);
+    }
+        </style>
+    </head>
+    <center><body bgcolor="black">
+        <center><img src="logologin.png" width="420" height="250"></center>
+        <form action=".." method="post">
+        <fieldset style="width: 50%; border-radius: 1rem; background-color: #02579b; color: white;">
+            <h1 align="left" style="font-family: Georgia;"> Daftar Segera!! </h1>
+            <h3 align="left">Username</h3>
+            <input type="text" placeholder="Enter Username">
+            <h3 align="left">Tempat dan Tanggal Lahir</h3>
+            <table align="left">
+            <td><input type="date"></td>
+            </table>
+            <br>
+            <h3 align="left">Gender</h3>
+            <table align="left">
+            <td><input type="radio" name="gender" value="laki-laki"> laki-laki </td>
+            <td><input type="radio" name="gender" value="perempuan"> perempuan </td>
+            </table>
+            <br>
+            <h3 align="left">Email</h3>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+            <h3 align="left">Password</h3>
+            <input type="password" name="pass" placeholder="Enter Password">
+            <h3 align="left">Repeat Password</h3>
+            <input type="password" name="pass" placeholder="Repeat password">
+            <h3 align="left">Alamat</h3>
+            <textarea cols="50" rows="10" placeholder="Tulis singkat tentang Alamatmu"></textarea>
+            <h3 align="left">Provinsi</h3>
+            <table align="left">
+            <td><select>
+                <option value="Jawa Timur">Jawa Timur</option>
+                <option value="Jawa Tengah">Jawa Tengah</option>
+                <option value="Jawa Barat">Jawa Barat</option>
+                <option value="DIY Yogyakarta">DIY Yogyakarta</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Maluku Barat">Maluku Barat</option>
+                <option value="Bali">Bali</option>
+            </select></td>
+            </table><br>
+            <h3 align="left">Negara</h3>
+            <table align="left">
+            <td><select>
+                <option>Indonesia</option>
+                <option>Singapura</option>
+                <option>Malaysia</option>
+                <option>Papua Nugini</option>
+                <option>Vietnam</option>
+            </select></td>
+            </table>
+            <br><br>
+            <input type="checkbox" name="izin" >By creating an account you agree to our Terms & Privacy.
+            <br><br>
+            <button type="button" style="padding: 10px 15px; background-color: #5e605f; float: left; border-radius: 1rem; border-color: #5e605f;" ><a href="login.html" style="color: black; font-size: larger;">cancel</a></button>
+            <button type="button" style="padding: 10px 15px; background-color: #4397db; float: left; border-radius: 1rem; border-color: #05365f;" ><a href="../simple web/index.html" style="color: white; font-size: larger;">create my acc</a></button>
+        </fieldset>
+        </form>
+    </body></center>
+</html>
